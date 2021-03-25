@@ -39,6 +39,8 @@ import items.Shot_rod;
  * 
 */
 
+//This is the main file for the entire plugin.
+
 public class War_plugin_main extends JavaPlugin
 {
 
