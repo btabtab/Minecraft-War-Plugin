@@ -59,7 +59,9 @@ public class War_plugin_main extends JavaPlugin
     
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
     {
-		
+		
+	//This is responsible for handling the command
+	//that sends the player back to their bed
     	if(label.equalsIgnoreCase("warphome"))
     	{
     		if(sender instanceof Player)
