@@ -141,7 +141,13 @@ public class World_details implements Listener
 			{
 				//This is used to increment the block_broken counter.
 				blocks_broken++;
-				event.getPlayer().sendMessage("blocks broken: " + String.valueOf(blocks_broken));
+				
+				if(50 < blocks_broken)
+				{
+					blocks_broken = 0;
+					event.getPlayer().giveExp(1);
+				}
+				
 				break;
 			}
 		}

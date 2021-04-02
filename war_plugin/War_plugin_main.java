@@ -39,8 +39,6 @@ import items.Shot_rod;
  * 
 */
 
-//This is the main file for the entire plugin.
-
 public class War_plugin_main extends JavaPlugin
 {
 
@@ -61,9 +59,7 @@ public class War_plugin_main extends JavaPlugin
     
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String[] args)
     {
-		
-	//This is responsible for handling the command
-	//that sends the player back to their bed
+		
     	if(label.equalsIgnoreCase("warphome"))
     	{
     		if(sender instanceof Player)
